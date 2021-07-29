@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../src/style.css">
     <title>Linked List Visualizator</title>
 </head>
 <body>
@@ -12,7 +12,7 @@
 
     </svg>
     <div id="toolbar">
-        <button>Create List</button>
+        <button id="createList">Create List</button>
         <select value="Functions">
             <option value="Insert">Insert</option>
             <option value="Delete">Delete</option>
@@ -20,8 +20,8 @@
             <option value="Divide">Divide</option>
         </select>
         <button>Go</button>
-        <input value="Number of elements">
+        <input name="listSize" value="Number of elements">
     </div>
-    <script src="index.js"></script>
+    <script type="module" src="/src/index.js"></script>
 </body>
 </html>
